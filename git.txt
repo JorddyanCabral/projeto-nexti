@@ -7,3 +7,4 @@ git add --all
 git commit -m "Adicionar todos os arquivos do projeto de seleção do NExTI"
 git remote add origin (link pag )
 git push -u origin master
+git pull 
