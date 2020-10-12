@@ -1,0 +1,9 @@
+git config --global name.user "JorddyanCabral"
+git config --global name.email "jorddyan.liceu@gmail.com"
+
+
+git init
+git add --all
+git commit -m "Adicionar todos os arquivos do projeto de seleção do NExTI"
+git remote add origin (link pag )
+git push -u origin master

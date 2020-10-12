@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="icon" href="assets/img/logosiads/Group 2.png" type = "image/icon type">
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/styles/main.css'>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body id="body" class="body-content ">    
+    
+    <div id="carousel" class="column ">
+  
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+        
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <!--Img Carousel-->
+            <div class="carousel-item active">
+                <img src="assets/img/carousel/palestra.png" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary btn-lg col-sm-3" href="#main-content" role="button">Saiba Mais</a>
+                </div>
+            </div>
+            <!--Img Carousel-->
+            <div class="carousel-item">
+                <img src="assets/img/carousel/garagem.png"class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary btn-lg col-sm-3" href="#main-content" role="button">Saiba Mais</a>
+                </div>
+            </div>
+            <!--Img Carousel-->
+            <div class="carousel-item">
+                <img src="assets/img/carousel/semanati.png" class="d-block w-100 h-100"  alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a class="btn btn-primary btn-lg col-sm-3" href="#main-content" role="button">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+        
+    </div>
+</div>
+<div id="main-content" class="column">
+    <hr color="#ffffff" style="height: 0.3vh; width: 98vw;" align="center">
+    <!-- Container do conteudo principal -->
+    <div class="top-bar">
+        <div class="box">
+            <a class="navbar-brand" href="#body">
+                <!-- Logo Main Content -->
+                <img src="assets/img/logosiads/logocursos.png"  width="auto" height="120" class="d-inline-block align-top" alt="">
+            </a>  
+        </div>
+    </div>
+    <ul class="nav nav-tabs " id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active text-color " id="sobre-curso-tab" data-toggle="tab" href="#sobre-curso" role="tab" aria-controls="sobre-curso" aria-selected="true">Sobre o curso</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <!-- Link do projeto Integrador na NAV-->
+          <a class="nav-link text-color" id="pi-tab" data-toggle="tab" href="#pi" role="tab" aria-controls="pi" aria-selected="false">Projeto Integrador</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <!-- Link do NExTI  na NAV -->
+          <a class="nav-link text-color" id="nexti-tab" data-toggle="tab" href="#nexti" role="tab" aria-controls="nexti" aria-selected="false">NExTI</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <!-- Link dos Eventos na NAV -->
+          <a class="nav-link text-color" id="eventos-tab" data-toggle="tab" href="#eventos" role="tab" aria-controls="eventos" aria-selected="false">Eventos</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <!-- Link dos Contatos na NAV -->
+          <a class="nav-link text-color" id="contatos-tab" data-toggle="tab" href="#contatos" role="tab" aria-controls="contatos" aria-selected="false">Contatos</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <!-- Link Sobre o Projeto na NAV -->
+          <a class="nav-link text-color" id="sobre-projeto-tab" data-toggle="tab" href="#sobre-projeto" role="tab" aria-controls="sobre-projeto" aria-selected="false">Sobre o Projeto</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <!-- Conteúdo do Link do Projeto Integrador da NAV -->
+        <div class="tab-pane fade show active " id="sobre-curso" role="tabpanel" aria-labelledby="sobre-curso-tab">
+            <p class="tab-content-legend"> 
+                O curso de SISTEMAS DE INFORMAÇÃO – A UniFAP tem como meta formar alunos aptos a lidar com a automação e gestão das soluções tecnológicas adotadas pelas organizações, utilizando sua experiência acadêmica e profissional para planejar e implementar tais soluções com responsabilidade e ética.
+                <br>
+                O curso de Análise e Desenvolvimento de Sistemas tem por objetivo formar profissionais capacitados para atuar na área de Tecnologia da Informação e Informática, voltando-se para a criação de soluções computacionais, a fim de tratar problemas específicos com inovação e aplicação das novas tecnologias, bem como aprimorar soluções já existentes, atualizando-as de acordo com os novos padrões de negócios e culturais.
+                <br>
+                Coordenador Geral e Coordenador Empresa Júnior - NExTI
+                <br>
+                Anselmo Lacerda Gomes 
+            </p>
+            <div class="row-cards">
+                <!-- Cards de Imagens do Projeto Integrador -->
+                <div class="card card-margin" style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/fap2.png" alt="Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Aqui é um exemplo da estrutura da UniFAP.</p>
+                    </div>
+                </div>
+                <div class="card card-margin " style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/fap1.png" alt="Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Uma foto da estrutura antiga do Núcleo de estágio .</p>
+                    </div>
+                </div>
+                <div class="card card-margin" style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/fap3.png" alt="Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Um exemplo de uma foto dos laboratorios de programação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Conteudo do Link do Projeto Integrador  da NAV -->
+        <div class="tab-pane fade" id="pi" role="tabpanel" aria-labelledby="pi-tab">
+            <p class="tab-content-legend">
+                O projeto Integrador tem como função integras as disciplinas que fazem parte da grade curricular do semestre, utilizando artifícios como produção de infográficos em matérias conjuntas, produção de projetos e interfaces. 
+            </p>
+            <div class=" mx-auto w-75 h-75">
+                <!-- Vídeo do Conteúdo do Projeto Integrador -->
+                <div class=" mx-auto card card-margin " style="width: 75%; height: 75%;">
+                    <div class="embed-responsive embed-responsive-21by9 ">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nrbwE6VAReo" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body bg-light">
+                      <p class="card-text">Aqui encontramos um dos vídeos de uma das equipes do projeto Integrador .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Conteúdo do Link do NExTi da NAV -->
+        <div class="tab-pane fade" id="nexti" role="tabpanel" aria-labelledby="nexti-tab">
+            <p class="tab-content-legend">
+                A existência do NexTI – Núcleo de Extensão em Tecnologia da Informação busca atender ao principio básico da pesquisa em extensão no ensino superior que versa sobre a formação do Profissional Cidadão imprescindível para sua efetiva interação com a Sociedade, seja para se situar historicamente, para se identificar culturalmente ou para referenciar sua formação com os problemas que um dia terá de enfrentar.
+            </p>
+            <!-- Cards de Imagem do NExTI -->
+            <div class="row-cards">
+                 <div class="card card-margin " style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/fap1.png" alt="Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Uma foto da estrutura antiga do Núcleo de estágio .</p>
+                    </div>
+                </div>
+                <div class="card card-margin" style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/nexti3.jpg" alt="Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Aqui podemos encontrar uma foto da equipe do NExTI reunida.</p>
+                    </div>
+                </div>
+                <div class="card card-margin " style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/nexti.jpg" alt="Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Essa Foto foi tirada no dia do NExTI4fun.</p>
+                    </div>
+                </div>
+               
+                <div class="card card-margin" style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/nexti2.jpg" alt="Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Mais uma foto do NExTI4fun onde podemos encontrar o Coordenador e dois estagiários da E.E.E.P..</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <!-- Conteúdos do Link dos Eventos na NAV -->
+        <div class="tab-pane fade" id="eventos" role="tabpanel" aria-labelledby="eventos-tab">
+            <p class="tab-content-legend">
+                A UniFAP procura elevar ao máximo os conhecimentos de seus docentes trazendo atividades complementares e eventos ligados aos cursos, dentre os eventos ligados aos cursos da área de Tecnologia da Informação podemos incluir: Maratona de Programação, Semana de TI, NExTI4Fun e ao longo do ano diversas palestras e eventos conjuntos com outros cursos. 
+            </p>
+            <!-- Cards de imagens dos Eventos-->
+            <div class="row-cards">
+                <div class="card card-margin" style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/eventos3.jpg" alt="Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                    </div>
+                </div>
+                <div class="card card-margin " style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/eventos1.jpg" alt="Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                    </div>
+                </div>
+                <div class="card card-margin" style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/eventos4.jpg" alt="Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                    </div>
+                </div>
+                <div class="card card-margin" style="width: 20vw; height: 60vh;">
+                    <img class="card-img-top" src="assets/img/Cards/Cards ProjetoNExTI/eventos2.jpg"Imagem de capa do card">
+                    <div class="card-body bg-light">
+                      <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <!-- Conteúdos do Link dos Contatos na NAV -->
+        <div class="tab-pane fade" id="contatos" role="tabpanel" aria-labelledby="contatos-tab">
+            <p class="tab-content-legend">
+                Endereço:<br>
+                Rua da Conceição, 1228 - Bairro São Miguel - Juazeiro do Norte, CE<br>
+                CEP.: 63010-465<br>
+                
+                Fone/fax: (88) 3512-3299<br>
+                E-mail: fap@fapce.edu.br<br>
+                
+                
+                Apoio Acadêmico<br>
+                E-mail: academico.sistemas@fapce.edu.br<br>
+                
+                
+                Suporte Técnico<br>
+                E-mail: interatividade@fapce.edu.br<br>
+            </p>
+        </div>
+        <!-- Conteúdos do Link dos sobre os projetos na NAV -->
+        <div class="tab-pane fade" id="sobre-projeto" role="tabpanel" aria-labelledby="sobre-projeto-tab">
+            <p class="tab-content-legend">
+               Esse Porjeto foi desenvolvido para o processo seletivo do NExTI com o intuito de apresentar os projetos, eventos e um 
+               pouco mais dos cursos de ADS e SI<br>
+               As tecnologias utilizadas foram : <br>
+               HTML5, CSS, Bootstrap<br>
+               <!-- Cards sobre Jorddyan -->
+               <div class="projeto-margin">
+                   <div class="card " style="width: 18rem;">
+                    <img class="card-img-top" src="assets/img/Cards/PSFix_20180105_221532.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Jorddyan Cabral</h5>
+                      <p class="card-text">
+                          Acadêmico  de Sistemas de Informação
+                          Com ensino médio Tecnico Em Informática na E.E.E.P. Aderson Borges de Carvalho
+                      </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Designer Gráfico</li>
+                      <li class="list-group-item">Desenvolvedor WEB Nas horas Vagas</li>
+                    </ul>
+                  </div>
+               </div>
+               Projeto Desenvolvido Por Jorddyan Weslley De Almeida Cabral
+            </p>
+        </div>
+     </div>
+</div>
+    
+
+</body>
+</html>

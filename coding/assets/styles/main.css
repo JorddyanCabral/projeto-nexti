@@ -1,0 +1,73 @@
+.body-content{
+    background-color: #181f31;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}   
+.home-scroll{
+    width:auto;
+    height:auto;
+    margin: none;
+    
+}
+.carousel .carousel-item {
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel-item img {
+    
+    /* max-width: 100vmax;
+    max-height: 100vmax; */
+    position:absolute;
+    object-fit:cover;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    
+}
+.text-color{
+    color: aliceblue;
+}
+.main-content{
+    height: 100vh;
+    background-color: #054165;
+}
+.top-bar{
+    margin: 2%;
+}
+.top-bar i{
+    color: aliceblue;
+}
+.box{
+    
+    display: inline-flex;
+
+    
+}
+.box p{
+    color: aliceblue;
+    padding-top: 13%;
+    
+}
+.row-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-margin{
+    margin: 2%;
+}
+
+.tab-content-legend{
+    color: aliceblue;
+    margin: 2%;
+    line-height:2.5rem;
+}
+
+.projeto-margin{
+    margin: 2%;
+}
